@@ -4,34 +4,32 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Trevor Whitlock
+  tagline: Technical Leader
+  avatar: Lego_batman.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
+  email: resume@twhitlock.com
+#  phone: 012 345 6789
+  timezone: America/Los_Angeles
+#  citizenship:
+  website: https://www.twhitlock.com/ # Include the full website URL, including "http://" or "https://".
+  linkedin: trevor-whitlock-2a80811
+  github: chikin
+#  telegram: # add your nickname without '@' sign
+#  gitlab:
+#  bitbucket:
+#  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+#  twitter: '@jekyllrb'
+#  stack-overflow: # Number/Username, e.g. 123456/alandoe
+#  codewars:
+#  goodreads: # Number-Username, e.g. 123456-alandoe
+#  mastodon: # Please include your full Mastodon link here.
+#  hackerrank: # Please provide your HackerRank username.
+#  leetcode: # Please provide your LeetCode username.
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
@@ -40,20 +38,14 @@ sidebar:
     - idiom: English
       level: Native
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
-
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: 3D Printing
       link:
 
 
-    - item: Snowboarding
+    - item: Warhammer
       link:
 
 
@@ -64,223 +56,169 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Strategic and empathetic technology leader with 10+ years of experience managing Agile software delivery and DevSecOps engineering teams.
+    Proven success in implementing CI/CD pipelines, shifting security left, and driving cloud migrations in hybrid environments.  
+    Skilled in SDLC management, governance, compliance, and risk management with a strong focus on customer-facing solutions and SLA adherence.
+    Passionate servant leader who fosters high-performing, collaborative teams and aligns technical execution with long-term business goals.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Coursework toward a PhD
+    university: University of Utah
+    location: Salt Lake City, Utah
+    time: 2008 - 2010
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Took the courses required to get a PhD in Computer science with a focus on Static and Dynamic Program Analysis
+        - Networks
+        - Operating Systems
+        - Computer Architecture
+        - Advanced Topics in Compilation
+        - Formal Methods
+        - Distributed Systems
+        - Programming Languages & Systems
+        - Static Analysis
+        - Foundations of Theoretical Computer Science
+  - degree: BS in Computer Science
+    university: Westminster College
+    time: 2004
+
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Director of DevSecOps Engineering
+    time: 02/2024 - 02/2025
+    company: Fidelity Life Association, Chicago, IL (Remote)
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Lead the 8 person DevSecOps team.  We were in charge of ensuring the product teams had Infrastructure as Code 
+      (IaC) in Terraform.  We were also responsible for the production environment including infrastructure.  We also 
+      managed the CI/CD build pipelines in Jenkins and Bitbucket.
+        - Using Kanban I limited the amount of work in flight so we were able to complete 3 times the amount of tickets 
+      per month
+        - Worked with the development teams and product team to ensure that the technical debt was taken care of while 
+      migrating from EC2 hosted services to more cloud-native solutions such as Containers or Lambda functions in AWS
+  - role: Director of Software Engineering
+    time: 01/2017 - 02/2024
+    company: Fidelity Life Association, Chicago, IL (Remote)
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      Led three agile product teams using Scrum agile processes with a total of 30 people reporting to me. The first 
+      team was local to Portland and dedicated to the New Business workflow, they handled the applications after the 
+      applicant signed them until we received payment and sent the information to our TPA to handle.  The second team was
+      an offshore team rewriting our underwriting workbench.  The last team was remote in Chicago and handled our agent 
+      focused web application, and our direct to consumer sales application.
+        - Worked with customers and stakeholders to ensure their needs were reflected in the roadmap for the teams
+        - Managed the project to make our legacy application PCI compliant.  Worked with the business team members to 
+      reduce the scope to take one third the amount of time initially planned.
+        - Prior to hiring scrum masters for the teams I was in charge of coaching the teams on the agile process and necessary ceremonies.
+        - Managed the entire SDLC from requirement collection to product support for the three teams.
+        - Enabled a positive culture where only 1 person left during my tenure in this role
+        - Using SAFe practices we were able to improve each team’s average velocity by 20% year over year
+  - role: Manager of Software Engineering
+    time: 01/2016 - 12/2016
+    company: Fidelity Life Association, Chicago, IL (Remote)
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+      Managed the team that I was previously on.  We delivered a system to identify events of interest in the lifecycle 
+      of a policy.  This enabled our operations team to reduce the lapse rate by 10% for policies in the first year.
+        - Worked with the business stakeholders to define the requirements for this application.  
+        - Delivered the project on time and within budget.
+        - Balanced the support burden from the project with the new development work requested.
+  - role: Senior Ruby Developer
+    time: 09/2014 - 12/2015
+    company: Fidelity Life Association, Chicago, IL (Remote)
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+      Worked on a direct to consumer application to purchase life insurance online.  Also worked on the connections to 
+      our Third Party Administrator (TPA) using ACORD standard file formats.
+        - Designed and developed the data feeds to exchange information with our TPA using ACORD 103 and ACORD 1203s.
+        - Built and utilized load tests using JMeter to ensure that the direct to consumer application could handle the 
+      expected load based on the Marketing estimate for the system.  This was estimated as 300 applications per minute.
+  - role: Senior Java Engineer
+    time: 08/2012 - 08/2014
+    company: Jive Software, Portland, Or
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Worked as part of an agile team breaking down features, estimating effort, developing features and delivering them
+      into production.  Refactored the way we handled localization so the text would be grammatically correct in other 
+      languages.  Worked with customers to design ways they could solve the use cases that they wanted.  Designed the 
+      REST interface that we used to integrate multiple third party products into the main product.
 
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - role: Senior Java Engineer / Team Lead
+    time: 06/2007 - 08/2012
+    company: O.C. Tanner, Salt Lake City, UT
+    details: |
+      Used Agile practices to develop a Java based SaaS product.  Lead teams of 4- 17 developers.  Mentored junior 
+      developers on the use of different tools, including hibernate, and foglight.  Increased performance of the login 
+      process by 200% by optimizing database access.  Increased the number of concurrent users we could handle by 400% 
+      in two weeks by reducing the amount of session data stored on the server of a SaaS offering.  Used Groovy for 
+      system automation and in the SaaS offering.  Integrated with SAP using XI middleware in a SOA.
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  - role: Senior Developer / Team Lead
+    time: 08/2012 - 08/2014
+    company: Computer Marketing Corporation, Salt Lake City, UT
+    details: |
+      Used Agile programming practices to develop software in Java.  Converted the source control system from CVS to 
+      Subversion.  Performed continuous integration using Cruise Control and Ant.  Designed and implemented automated 
+      deployments of new software.  Maintained legacy swing applications.  Coordinated team member responsibilities to 
+      achieve project goals.  Managed time sensitive projects across multiple teams to meet company objectives.
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+#recommendations:
+#  title: Recommendations
+#  list:
+#  - person: Yareli Perez
+#    email: perezyareli@example.com
+#    phone: 012 345 6789
+#    role: General Director at example.com
+#    recommendation: |
+#      Alan Doe is a super employee!
+#  - person: Lara Henderson
+#    email: larah@example.com
+#    phone: 012 345 6789
+#    role: General Director at example.com
+#    recommendation: |
+#      I would like to work with Alan Doe again!
+#
+#      He is a great employee!
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
+  - name: Ruby
+    level: 90%
 
-  - name: Javascript & jQuery
-    level: 98%
+  - name: Java
+    level: 80%
 
-  - name: Angular
-    level: 98%
+  - name: Ant
+    level: 80%
 
-  - name: HTML5 & CSS
+  - name: Jenkins
     level: 95%
 
-  - name: Ruby on Rails
-    level: 85%
+  - name: Git
+    level: 90%
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - name: Tomcat
+    level: 75%
 
+  - name: AWS
+    level: 45%
+
+  - name: EC2
+    level: 75%
+
+  - name: S3
+    level: 75%
+
+  - name: Terraform
+    level: 45%
+
+  - name: Snyk
+    level: 75%
+
+  - name: Jira
+    level: 95%
+
+  - name: Confluence
+    level: 95%
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
