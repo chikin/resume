@@ -17,7 +17,7 @@ sidebar:
   timezone: America/Los_Angeles
 #  citizenship:
   website: https://www.twhitlock.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: trevor-whitlock-2a80811
+  linkedin: trevor-whitlock
   github: chikin
 #  telegram: # add your nickname without '@' sign
 #  gitlab:
@@ -91,47 +91,50 @@ experiences:
     time: 02/2024 - 02/2025
     company: Fidelity Life Association, Chicago, IL (Remote)
     details: |
-      Lead the 8 person DevSecOps team.  We were in charge of ensuring the product teams had Infrastructure as Code 
-      (IaC) in Terraform.  We were also responsible for the production environment including infrastructure.  We also 
-      managed the CI/CD build pipelines in Jenkins and Bitbucket.
-        - Using Kanban I limited the amount of work in flight so we were able to complete 3 times the amount of tickets 
+      Led the 8 person DevSecOps team.  Ensured the product teams had Infrastructure as Code (IaC) in Terraform.  Responsible 
+      for the production environment including infrastructure.  Managed the CI/CD build pipelines in Jenkins and Bitbucket.
+      
+        - Using Kanban limited the amount of work in flight so we were able to complete 3 times the amount of tickets 
       per month
         - Worked with the development teams and product team to ensure that the technical debt was taken care of while 
       migrating from EC2 hosted services to more cloud-native solutions such as Containers or Lambda functions in AWS
+        - Introduced security tooling into the build process to shift security left in the SDLC
+        - Maintained all custom software systems with a 99.9% availability SLA
+        - Worked as the compliance liaison between the engineering and compliance teams
   - role: Director of Software Engineering
     time: 01/2017 - 02/2024
     company: Fidelity Life Association, Chicago, IL (Remote)
     details: |
-      Led three agile product teams using Scrum agile processes with a total of 30 people reporting to me. The first 
-      team was local to Portland and dedicated to the New Business workflow, they handled the applications after the 
-      applicant signed them until we received payment and sent the information to our TPA to handle.  The second team was
-      an offshore team rewriting our underwriting workbench.  The last team was remote in Chicago and handled our agent 
-      focused web application, and our direct to consumer sales application.
+      Led the Software Development Department with 30 people located locally, on-shore and off-shore.  The teams were responsible
+      for the life of an insurance application from answering the initial questions, to underwriting, and paying for the policy 
+      and it going in force with our Third Party Administrator.  They were also responsible for consuming data feeds of 
+      policy updates from our Third Party Administrator.
         - Worked with customers and stakeholders to ensure their needs were reflected in the roadmap for the teams
-        - Managed the project to make our legacy application PCI compliant.  Worked with the business team members to 
-      reduce the scope to take one third the amount of time initially planned.
-        - Prior to hiring scrum masters for the teams I was in charge of coaching the teams on the agile process and necessary ceremonies.
-        - Managed the entire SDLC from requirement collection to product support for the three teams.
-        - Enabled a positive culture where only 1 person left during my tenure in this role
+        - Managed all aspects of a consumer facing application to deliver on time and in budget in one year 
+        - Managed the project to make our legacy application PCI compliant.  Worked with the business stakeholders to 
+      reduce the scope to take one third the amount of time initially planned
+        - Prior to hiring scrum masters for the teams, coached the teams on the agile process and related ceremonies
+        - Managed the entire SDLC from requirement collection to product support for the three teams
+        - Enabled a positive culture where only 1 person left during my 7 year tenure in this role
         - Using SAFe practices we were able to improve each team’s average velocity by 20% year over year
   - role: Manager of Software Engineering
     time: 01/2016 - 12/2016
     company: Fidelity Life Association, Chicago, IL (Remote)
     details: |
-      Managed the team that I was previously on.  We delivered a system to identify events of interest in the lifecycle 
-      of a policy.  This enabled our operations team to reduce the lapse rate by 10% for policies in the first year.
-        - Worked with the business stakeholders to define the requirements for this application.  
-        - Delivered the project on time and within budget.
-        - Balanced the support burden from the project with the new development work requested.
+      Delivered a system to identify events of interest in the lifecycle of a policy.  
+      This enabled our operations team to reduce the lapse rate by 10% for policies in the first year.
+        - Worked with the business stakeholders to define the requirements for this application
+        - Delivered the project on time and within budget
+        - Balanced the support burden from the project with the new development work requested
   - role: Senior Ruby Developer
     time: 09/2014 - 12/2015
     company: Fidelity Life Association, Chicago, IL (Remote)
     details: |
       Worked on a direct to consumer application to purchase life insurance online.  Also worked on the connections to 
       our Third Party Administrator (TPA) using ACORD standard file formats.
-        - Designed and developed the data feeds to exchange information with our TPA using ACORD 103 and ACORD 1203s.
+        - Designed and developed the data feeds to exchange information with our TPA using ACORD 103 and ACORD 1203s
         - Built and utilized load tests using JMeter to ensure that the direct to consumer application could handle the 
-      expected load based on the Marketing estimate for the system.  This was estimated as 300 applications per minute.
+      expected load based on the estimates of 300 applications per minute
   - role: Senior Java Engineer
     time: 08/2012 - 08/2014
     company: Jive Software, Portland, Or
